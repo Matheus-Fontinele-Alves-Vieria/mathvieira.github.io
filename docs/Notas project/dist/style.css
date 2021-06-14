@@ -1,0 +1,59 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #424242;
+  font-family: "Arial";
+}
+
+.app {
+  position: relative;
+}
+
+.container {
+  background-color: #536dfe;
+  position: absolute;
+  padding: 1em 2em;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 400px;
+  top: 50vh;
+  transform: translateY(-50%);
+  border-radius: 9px;
+}
+
+h1 {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #1b5e20;
+  
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 0.5em 0;
+}
+
+.removeElement {
+  border: none;
+  background-color: #1b5e20;
+  margin-right: 6px;
+  cursor: pointer;
+}
+
+#button-inserir {
+  cursor: pointer;
+  border: none;
+  background-color: #1b5e20;
+  padding: 0.3em;
+  margin-right: 6px;
+}
+
+input {
+  border: none;
+  padding: 0.3em;
+}
